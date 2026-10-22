@@ -1,17 +1,17 @@
 <?php
 require_once __DIR__ . '/../functions/settings.php';
-$address = get_setting('address', 'Rz-D1/325A, Mahavir Enclave, New Delhi – 110045');
+$address = get_setting('address', ' Mahavir Enclave, New Delhi – 110059');
 $hours = get_setting('business_hours', 'Mon–Sat, 10am–7pm');
-$phone1 = get_setting('phone1', '+91 70427 04454');
-$phone2 = get_setting('phone2', '+91 74999 49187');
-$email = get_setting('email', 'info@novahomz.com');
+$phone1 = get_setting('phone1', '+91 9876543210');
+$phone2 = get_setting('phone2', '+91 9876543210');
+$email = get_setting('email', 'info@vistahomz.com');
 ?>
 <footer class="vh-footer">
     <div class="vh-container">
         <div class="vh-footer-grid">
             <!-- Brand Column -->
             <div class="vh-footer-brand">
-                <img src="assets/images/logo.svg" alt="VISTAHOMZ" style="height: 52px; filter: brightness(0) invert(1);">
+                <img src="assets/images/logo.png" alt="VISTAHOMZ Logo" style="height: 68px; filter: brightness( 0) invert(1);">
                 <p>
                     VISTAHOMZ is a premier furniture & architectural living brand specializing in high-grade residential furniture, ergonomic office systems, and turnkey hospitality & commercial bulk orders.
                 </p>

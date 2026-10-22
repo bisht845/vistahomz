@@ -10,8 +10,8 @@ $site_tagline = get_setting('site_tagline', 'Luxury Furniture & Architectural Li
 $meta_title = isset($page_title) ? $page_title . ' — ' . $site_name : get_setting('meta_title', 'VISTAHOMZ — Premium Commercial & Luxury Home Furniture');
 $meta_desc = isset($page_desc) ? $page_desc : get_setting('meta_desc', 'VISTAHOMZ delivers premium furniture solutions for offices, hotels, cafes, institutions and modern residences.');
 $announcement_text = get_setting('announcement_bar', 'Free Delivery & Professional Installation Across India');
-$phone1 = get_setting('phone1', '+91 70427 04454');
-$email = get_setting('email', 'info@novahomz.com');
+$phone1 = get_setting('phone1', '+91 9876543210');
+$email = get_setting('email', 'info@vistahomz.com');
 $cart_count = get_cart_count();
 ?>
 <!DOCTYPE html>

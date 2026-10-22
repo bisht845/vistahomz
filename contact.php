@@ -20,9 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $pdo) {
     } catch (Exception $e) {}
 }
 
-$phone1 = get_setting('phone1', '+91 70427 04454');
+$phone1 = get_setting('phone1', '+91 9876543210');
 $phone2 = get_setting('phone2', '+91 74999 49187');
-$email = get_setting('email', 'info@novahomz.com');
+$email = get_setting('email', 'info@vistahomz.com');
 $address = get_setting('address', 'Rz-D1/325A, Mahavir Enclave, New Delhi – 110045');
 $hours = get_setting('business_hours', 'Mon–Sat, 10am–7pm');
 
