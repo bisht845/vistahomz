@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../functions/settings.php';
 $address = get_setting('address', ' Mahavir Enclave, New Delhi – 110059');
 $hours = get_setting('business_hours', 'Mon–Sat, 10am–7pm');
-$phone1 = get_setting('phone1', '+91 9876543210');
+$phone1 = get_setting('phone1', '+91 7982895924');
 $phone2 = get_setting('phone2', '+91 9876543210');
 $email = get_setting('email', 'info@vistahomz.com');
 ?>

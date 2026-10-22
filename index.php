@@ -4,7 +4,7 @@ require_once __DIR__ . '/functions/settings.php';
 require_once __DIR__ . '/functions/products.php';
 require_once __DIR__ . '/functions/categories.php'; 
 
-$page_title = 'Luxury Furniture & Architectural Living';
+$page_title = 'VISTAHOMZ | Luxury Furniture';
 $page_desc = 'Discover master-crafted furniture for residences, offices, hotels, and luxury commercial spaces by VISTAHOMZ.';
 
 // Dynamic data queries preserving existing schema

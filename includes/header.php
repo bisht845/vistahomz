@@ -21,7 +21,8 @@ $cart_count = get_cart_count();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= htmlspecialchars($meta_title) ?></title>
     <meta name="description" content="<?= htmlspecialchars($meta_desc) ?>">
-    
+       <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/vista-favicon.png" sizes="44*44">
     <!-- OpenGraph -->
     <meta property="og:title" content="<?= htmlspecialchars($meta_title) ?>">
     <meta property="og:description" content="<?= htmlspecialchars($meta_desc) ?>">
