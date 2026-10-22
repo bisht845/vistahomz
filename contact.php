@@ -30,14 +30,38 @@ include __DIR__ . '/includes/header.php';
 include __DIR__ . '/includes/navbar.php';
 ?>
 
-<div style="background: var(--color-background-soft); padding: 56px 0; border-bottom: 1px solid var(--color-border);">
-    <div class="vh-container">
-        <h1 style="font-size: 40px; margin-bottom: 8px;">Contact VISTAHOMZ</h1>
-        <p style="color: var(--color-text-secondary); max-width: 650px;">
-            Visit our corporate showroom in New Delhi, or speak directly with our bespoke furniture specialists.
+
+<!-- Contact Hero Section -->
+<section class="vh-contact-hero">
+    <div class="vh-contact-hero-inner">
+        <span class="vh-contact-eyebrow">GET IN TOUCH</span>
+
+        <h1>We’d Love to Hear From You</h1>
+
+        <p>
+            Whether it’s a single piece or a full commercial project —
+            our team is ready to help.
         </p>
+
+        <!-- <div class="vh-contact-hero-actions">
+            <a href="#contact-form" class="vh-contact-primary-btn">
+                Contact Us
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+            <a
+                href="https://wa.me/919876543210?text=Hello%20VISTAHOMZ%2C%20I%20would%20like%20to%20enquire%20about%20your%20furniture."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="vh-contact-whatsapp-btn"
+            >
+                <i class="bi bi-whatsapp"></i>
+                WhatsApp Us
+            </a>
+        </div> -->
     </div>
-</div>
+</section>
+
 
 <div class="vh-container" style="padding: 70px 24px 100px;">
     <?php if ($message_sent): ?>
@@ -94,13 +118,38 @@ include __DIR__ . '/includes/navbar.php';
             <div class="vh-trust-item" style="background: #fff; border: 1px solid var(--color-border); padding: 24px;">
                 <div class="vh-trust-icon"><i class="bi bi-telephone-fill"></i></div>
                 <div>
-                    <h4 class="vh-trust-title">Phone & WhatsApp</h4>
+                    <h4 class="vh-trust-title">Phone </h4>
                     <p class="vh-trust-desc">
                         <?= htmlspecialchars($phone1) ?><br>
                         <?= htmlspecialchars($phone2) ?>
                     </p>
                 </div>
             </div>
+            <a href="https://wa.me/919876543210?text=Hello%20VISTAHOMZ%2C%20I%20would%20like%20to%20enquire%20about%20your%20furniture."
+   target="_blank"
+   rel="noopener noreferrer"
+   style="text-decoration: none; display: block;">
+
+    <div class="vh-trust-item"
+         style="background: #25D366; border: 1px solid var(--color-border); padding: 24px; cursor: pointer;">
+
+        <div class="vh-trust-icon"
+             style="background-color: #51DC85;">
+            <i class="bi bi-whatsapp" style="color: #fff;"></i>
+        </div>
+
+        <div>
+            <h4 class="vh-trust-title" style="color: #fff;">
+                Chat on WhatsApp
+            </h4>
+
+            <p class="vh-trust-desc" style="color: #fff;">
+                Instant response during business hours
+            </p>
+        </div>
+
+    </div>
+                </a>
 
             <div class="vh-trust-item" style="background: #fff; border: 1px solid var(--color-border); padding: 24px;">
                 <div class="vh-trust-icon"><i class="bi bi-clock-fill"></i></div>

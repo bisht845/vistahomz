@@ -93,7 +93,7 @@ include __DIR__ . '/includes/navbar.php';
                     design and quality that stands the test of time.
                 </p> -->
 
-                <a href="/category.php" class="vh-about-text-link">
+                <a href="category.php" class="vh-about-text-link">
                     Explore Our Collection <span aria-hidden="true">→</span>
                 </a>
             </div>
@@ -355,13 +355,10 @@ include __DIR__ . '/includes/navbar.php';
             </p>
 
             <div class="vh-about-cta-actions">
-                <a href="/contact.php" class="vh-about-btn vh-about-btn-light">
+                <a href="contact.php" class="vh-about-btn vh-about-btn-light">
                     Book a Consultation
                     <span aria-hidden="true">↗</span>
                 </a>
-
-                <!-- Replace the number below with your official WhatsApp number.
-                     Use country code and digits only, without +, spaces or dashes. -->
                 <a
                     href="https://wa.me/917982895924?text=Hello%20VISTAHOMZ%2C%20I%20would%20like%20to%20discuss%20a%20furniture%20project."
                     class="vh-about-btn vh-about-btn-outline"
